@@ -157,8 +157,8 @@ public partial class DbOliwia230Context : DbContext
             entity.Property(e => e.EmailCodeExpiresAt)
                 .HasColumnType("datetime")
                 .HasColumnName("emailCodeExpiresAt");
-            entity.Property(e => e.EmailCodeHash)
-                .HasMaxLength(150)
+            entity.Property(e => e.EmailCode)
+                .HasColumnType("int(150)")
                 .HasColumnName("emailCodeHash");
             entity.Property(e => e.EmailConfirmed)
                 .HasColumnType("int(11)")

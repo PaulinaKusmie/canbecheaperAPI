@@ -15,9 +15,9 @@ public partial class CheaperUser
 
     public DateTime? CreatedAt { get; set; }
 
-    public int EmailConfirmed { get; set; }
+    public bool EmailConfirmed { get; set; }
 
-    public string? EmailCodeHash { get; set; }
+    public int? EmailCode { get; set; }
 
     public DateTime? EmailCodeExpiresAt { get; set; }
 
