@@ -1,0 +1,527 @@
+[
+  {
+    "ContainingType": "canbecheaperAPI.Endpoints.PriceEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPriceEndpoints\u003Eb__0_1",
+    "RelativePath": "prices/save",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "canbecheaperAPI.DTO.Price.PriceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Prices"
+    ],
+    "Summary": "Create price"
+  },
+  {
+    "ContainingType": "canbecheaperAPI.Endpoints.PriceEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPriceEndpoints\u003Eb__0_0",
+    "RelativePath": "prices/update",
+    "HttpMethod": "PATCH",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "canbecheaperAPI.DTO.Price.PriceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Prices"
+    ],
+    "Summary": "Update price"
+  },
+  {
+    "ContainingType": "canbecheaperAPI.Endpoints.ProductPriceEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapProductPriceEndpoints\u003Eb__0_0",
+    "RelativePath": "productprices/{userId}/{typeId}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "typeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Prices"
+    ]
+  },
+  {
+    "ContainingType": "canbecheaperAPI.Endpoints.ProductPriceEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapProductPriceEndpoints\u003Eb__0_2",
+    "RelativePath": "productprices/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Prices"
+    ]
+  },
+  {
+    "ContainingType": "canbecheaperAPI.Endpoints.ProductPriceEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapProductPriceEndpoints\u003Eb__0_1",
+    "RelativePath": "productprices/save",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "canbecheaperAPI.DTO.ProductPrice.ProductPriceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Prices"
+    ],
+    "Summary": "Create product price"
+  },
+  {
+    "ContainingType": "canbecheaperAPI.Endpoints.ProductEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapProductEndpoints\u003Eb__0_1",
+    "RelativePath": "products/{searchText}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchText",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Products"
+    ]
+  },
+  {
+    "ContainingType": "canbecheaperAPI.Endpoints.ProductEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapProductEndpoints\u003Eb__0_0",
+    "RelativePath": "products/save",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "canbecheaperAPI.DTO.Product.ProductRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Products"
+    ]
+  },
+  {
+    "ContainingType": "canbecheaperAPI.Endpoints.TypeEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapTypeEndpoints\u003Eb__0_0",
+    "RelativePath": "types/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Types"
+    ],
+    "Summary": "Get all types"
+  },
+  {
+    "ContainingType": "canbecheaperAPI.Endpoints.TypeEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapTypeEndpoints\u003Eb__0_1",
+    "RelativePath": "types/{userId}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Types"
+    ],
+    "Summary": "Get types by userId"
+  },
+  {
+    "ContainingType": "canbecheaperAPI.Endpoints.TypeEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapTypeEndpoints\u003Eb__0_4",
+    "RelativePath": "types/delete/{id}/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Types"
+    ],
+    "Summary": "Delete type"
+  },
+  {
+    "ContainingType": "canbecheaperAPI.Endpoints.TypeEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapTypeEndpoints\u003Eb__0_2",
+    "RelativePath": "types/save/{userId}",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "canbecheaperAPI.DTO.Type.TypeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Types"
+    ],
+    "Summary": "Create type"
+  },
+  {
+    "ContainingType": "canbecheaperAPI.Endpoints.TypeEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapTypeEndpoints\u003Eb__0_3",
+    "RelativePath": "types/update/{id}/{name}/{userId}",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Types"
+    ],
+    "Summary": "Create type"
+  },
+  {
+    "ContainingType": "canbecheaperAPI.Endpoints.UnitEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapUnitEndpoints\u003Eb__0_0",
+    "RelativePath": "units/{userId}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Units"
+    ],
+    "Summary": "Get unit by id"
+  },
+  {
+    "ContainingType": "canbecheaperAPI.Endpoints.UnitEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapUnitEndpoints\u003Eb__0_1",
+    "RelativePath": "units/update",
+    "HttpMethod": "PATCH",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "canbecheaperAPI.DTO.Unit.UnitRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Units"
+    ]
+  },
+  {
+    "ContainingType": "canbecheaperAPI.Endpoints.UserEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapUserEndpoints\u003Eb__0_0",
+    "RelativePath": "users/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Users"
+    ],
+    "Summary": "Get all users"
+  },
+  {
+    "ContainingType": "canbecheaperAPI.Endpoints.UserEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapUserEndpoints\u003Eb__0_1",
+    "RelativePath": "users/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Users"
+    ],
+    "Summary": "Get user by id"
+  },
+  {
+    "ContainingType": "canbecheaperAPI.Endpoints.UserEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapUserEndpoints\u003Eb__0_4",
+    "RelativePath": "users/$id",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Users"
+    ],
+    "EndpointName": "Delete User",
+    "Summary": "Delete new user"
+  },
+  {
+    "ContainingType": "canbecheaperAPI.Endpoints.UserEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapUserEndpoints\u003Eb__0_5",
+    "RelativePath": "users/confirmCode",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "canbecheaperAPI.DTO.User.ConfirmCodeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Users"
+    ],
+    "EndpointName": "ConfirmCode",
+    "Summary": "Confirm email with code"
+  },
+  {
+    "ContainingType": "canbecheaperAPI.Endpoints.UserEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapUserEndpoints\u003Eb__0_2",
+    "RelativePath": "users/login",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginReguest",
+        "Type": "canbecheaperAPI.DTO.User.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Users"
+    ]
+  },
+  {
+    "ContainingType": "canbecheaperAPI.Endpoints.UserEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapUserEndpoints\u003Eb__0_3",
+    "RelativePath": "users/register",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "canbecheaperAPI.DTO.User.RegisterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Users"
+    ],
+    "EndpointName": "Creeate User",
+    "Summary": "Create new user"
+  }
+]
