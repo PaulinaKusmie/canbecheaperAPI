@@ -17,7 +17,13 @@ CanBeCheaper API is a RESTful backend built with .NET Core that powers the CanBe
 
 
 🛠️ Tech Stack
-TechnologyVersionPurpose.NET Core8.0FrameworkASP.NET Core Web API8.0REST APIEntity Framework Core8.0ORMPomelo MySQL8.0MySQL EF Core driverMySQL8.0Database (DbOliwia230Context)JWT Bearer-AuthenticationSwagger / Swashbuckle-API documentationBCrypt.Net-Password hashingMailService-Email confirmation codes
+.NET Core 
+FrameworkASP.NET Core Web
+API8.0REST API
+Entity Framework Core
+MySQL
+JWT Bearer-AuthenticationSwagger 
+documentationBCrypt.Net-Password
 
 
 📁 Project Structure
